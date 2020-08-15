@@ -16,7 +16,13 @@ body {
   /* Giving our navbar some padding and a background color */
   .navbar {
     padding: 10px;
-    background: #5191fd;
+    background: white;
+  }
+
+  .navigation .navbar-brand{
+      background-color: teal;
+      font-weight: bold;
+      margin-left: 30px;
   }
   
   /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
