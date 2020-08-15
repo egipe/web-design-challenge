@@ -16,8 +16,8 @@
             <span class="navbar-toggler-icon"></span>
             </button>
   
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+            <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
@@ -45,14 +45,40 @@
         <!--Text-->
 
     <div class="container">
-        <div class = "col-lg-7 col-md-12">
-            <!--Text Box-->
+        <div class = "col-lg-8 col-sm-12">
+            <!--Intro Box-->
             <div class="box">
                 <h3 class="title">Summary: Latitude vs. X</h3>
                 <hr>
-                <img src="Resouces/assets/Fig1.png" class="vizualization">
+                <img src="Resources/assets\images/Fig1.png">
                 <p> The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities</p>
                 <p> After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. The site provides the source data and visualizations created as part of the analysis, as well as explanatios and descriptions of any trends and correlations witnessed.</p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-8">
+            <!--Visualizations Box-->
+            <div class="box">
+                <h4 class="title">Visualization</h4>
+                <!--Graphs and Charts-->
+                <div class = "container">
+                    <div class = "row">
+                            <a href = "Max_Temp.html">
+                                <img src="Resources/assets\images/Fig1.png">
+                            </a>
+                            <a href = "Humidity.html">
+                                <img src="Resources/assets\images/Fig2.png">
+                            </a>
+                            <a href = "Cloudiness.html">
+                                <img src="Resources/assets\images/Fig3.png">
+                            </a>
+                            <a href = "Wind_Speed.html">
+                                <img src="Resources/assets\images/Fig4.png">
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
         </div>
         </div>
