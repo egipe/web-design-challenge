@@ -1,2 +1,40 @@
-/* Includes all style CSS code
-/* https://getbootstrap.com/docs/4.5/components/navbar/
+body{
+  background-color: lightgray;
+  max-width: 960px;
+  margin: auto;
+}
+
+header{
+  max-width: auto !important;
+  margin: 0px;
+}
+
+.box{
+  background-color: white;
+}
+
+.title{
+  color: teal;
+  font-weight: bold;
+}
+
+.navigation .navbar-brand{
+  color: white;
+  background-color: teal;
+  font-weight: bold;
+}
+
+.navbar{
+  background: white;
+}
+
+.container{
+  background: white
+}
+
+img{
+  height:auto;
+  display: block;
+  margin:auto;
+  max-width:100%;
+}

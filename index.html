@@ -3,45 +3,49 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Landing Page</title>
+        <title>Weather Data</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="Style_Guide.css">
       </head>
-<body>
+<header>
     <!-- Navbar -->
     <div class="navigation">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Latitude</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-  
-            <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Comparison.html">Comparisons</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Plots
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="Max_Temp.html">Max Temp</a>
-                        <a class="dropdown-item" href="Humidity.html">Humidity</a>
-                        <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
-                        <a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="data_page.html">Data</a>
-                </li>
-            </ul>
-            </div>
-        </nav>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Comparison.html">Comparisons</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="Max_Temp.html">Max Temp</a>
+                    <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data_page.html">Data</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+</div>
+</header>
+
+<body>
+   
         <!--Text-->
     <div class="container row">
             <!--Intro Box-->
@@ -68,6 +72,7 @@
                                 <img src="Resources/assets\images/Fig2.png" width=100% height=100%>
                             </a>
                         </div>
+                    </div>
                     <div class = "row col-lg-12 col-sm-6">
                         <div class = "col-lg-6">
                             <a href = "Cloudiness.html">
@@ -80,9 +85,7 @@
                             </a>
                         </div>
                     </div>
-                    </div>
 
-                </div>
             </div>
     </div>
 
