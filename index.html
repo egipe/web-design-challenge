@@ -43,39 +43,47 @@
         </nav>
     </div>
         <!--Text-->
-    <div class="container">
+    <div class="container row">
             <!--Intro Box-->
-            <div class="box">
+            <div class = "col-lg-8 box">
                 <h3 class="title">Summary: Latitude vs. X</h3>
                 <hr>
                 <img src="Resources/assets\images/Fig1.png">
                 <p> The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities</p>
                 <p> After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. The site provides the source data and visualizations created as part of the analysis, as well as explanatios and descriptions of any trends and correlations witnessed.</p>
             </div>
-        </div>
             <!--Visualizations Box-->
-            <div class="box">
+            <div class = "col-lg-4 box">
                 <h4 class="title">Visualization</h4>
                 <!--Graphs and Charts-->
-                <div class = "container">
-                    <div class = "row">
+                <div class = "container row">
+                    <div class = "row col-lg-12 col-sm-6">
+                        <div class= "col-lg-6">
                             <a href = "Max_Temp.html">
-                                <img src="Resources/assets\images/Fig1.png">
-                            </a>
-                            <a href = "Humidity.html">
-                                <img src="Resources/assets\images/Fig2.png">
-                            </a>
-                            <a href = "Cloudiness.html">
-                                <img src="Resources/assets\images/Fig3.png">
-                            </a>
-                            <a href = "Wind_Speed.html">
-                                <img src="Resources/assets\images/Fig4.png">
+                                <img src="Resources/assets\images/Fig1.png" width=100% height=100%>
                             </a>
                         </div>
-
+                        <div class = "col-lg-6">
+                            <a href = "Humidity.html">
+                                <img src="Resources/assets\images/Fig2.png" width=100% height=100%>
+                            </a>
+                        </div>
+                    <div class = "row col-lg-12 col-sm-6">
+                        <div class = "col-lg-6">
+                            <a href = "Cloudiness.html">
+                                <img src="Resources/assets\images/Fig3.png" width=100% height=100%>
+                            </a>
+                        </div>
+                        <div class = "col-lg-6">
+                            <a href = "Wind_Speed.html">
+                                <img src="Resources/assets\images/Fig4.png" width=100% height=100%>
+                            </a>
+                        </div>
+                    </div>
                     </div>
 
                 </div>
+            </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
